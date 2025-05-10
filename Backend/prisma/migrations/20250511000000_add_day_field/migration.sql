@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Photo" ADD COLUMN "day" TEXT;
+ALTER TABLE "Photo" ALTER COLUMN "date" SET DATA TYPE TEXT;
